@@ -1,5 +1,6 @@
 # redwash
 A Python (for Windows) troll script that locks the user's computer and jumpscares them. Does not require UAC.
+
 Has various optional features:
 * Hide itself when run
 * Block user input (including Ctrl+Alt+Del)
