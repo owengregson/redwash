@@ -277,4 +277,4 @@ def otherCode():
 if __name__ == "__main__":
 
     # hide=True, block=True, minimize=True, commands=True, kill=True, oF=sleep(0)
-    redwash(True, False, True, True, False, otherCode)
+    redwash(True, True, True, True, True, otherCode)
