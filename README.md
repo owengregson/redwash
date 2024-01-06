@@ -4,6 +4,8 @@ Created in December 2021 -- Last Modified 12/15/2021
 A Python (for Windows) troll script that locks the user's computer and jumpscares them. I made this as a proof-of-concept that Windows gives executables an unusual amount of freedom over the device and is pretty insecure.
 This program __does not require UAC (Run as administrator)__.
 
+# ⚠️ This project is shown for educational purposes only. I am not liable for malicious use of this code.
+
 Has various optional features:
 * Hide itself when run
 * Block user input (including Ctrl+Alt+Del)
